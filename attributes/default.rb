@@ -110,6 +110,7 @@ default['apache']['keepalive'] = "On"
 default['apache']['keepaliverequests'] = 100
 default['apache']['keepalivetimeout'] = 5
 default['apache']['wwwroot'] = "/var/www"
+default['apache']['vhostport'] = "80"
 
 # Security
 default['apache']['servertokens'] = "Prod"
